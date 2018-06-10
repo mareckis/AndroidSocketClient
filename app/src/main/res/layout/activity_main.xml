@@ -15,14 +15,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Port" />
+    <EditText
+        android:id="@+id/edit_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Wiadomość" />
     <Button
         android:id="@+id/connect"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Połącz"/>
+        android:text="Połącz/Wyślij"/>
     <TextView
-        android:id="@+id/text_message"
+        android:id="@+id/text_answer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
